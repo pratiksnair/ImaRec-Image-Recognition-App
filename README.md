@@ -1,4 +1,32 @@
-It is a Python Based application which recognizes image uploaded by user based on the CIFAR-10 Dataset [The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different 
-classes. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks.] It makes use of Flask for server capabilities as to upload an image for classification.
-It uses a CNN (Convolutional Neural Network (CNN) is the extended version of artificial neural networks (ANN) which is predominantly used to extract the feature from the grid-like matrix dataset. For example visual datasets like 
-images or videos where data patterns play an extensive role.)
+# ImaRec - Image Recognition App 🖼️🔍
+
+**ImaRec** is a Python-based web application that allows users to upload an image and receive a classification result based on the **CIFAR-10 dataset**. It leverages a **Convolutional Neural Network (CNN)** for image recognition and uses **Flask** to provide a simple web interface.
+
+---
+
+## 🚀 Features
+
+- Upload and classify images directly from your browser
+- Trained on the CIFAR-10 dataset (airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks)
+- Built with Flask for lightweight deployment
+- Uses a CNN model for accurate image classification
+
+---
+
+## 🧠 Tech Stack
+
+- **Python**
+- **Flask**
+- **TensorFlow / Keras** (for CNN model)
+- **HTML/CSS** (for frontend)
+- **CIFAR-10 Dataset**
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pratiksnair/ImaRec-Image-Recognition-App.git
+   cd ImaRec-Image-Recognition-App
+   ```
